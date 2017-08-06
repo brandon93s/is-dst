@@ -19,7 +19,9 @@ $ npm install --save is-dst
 ```js
 const isDST = require('is-dst')
 
-// examples invoked in US/Eastern timezone
+/*
+ * Examples invoked on February 5th, 2017 in US/Eastern timezone
+ */
 
 isDST(new Date('January 1, 2017'))
 //=> false
@@ -27,7 +29,6 @@ isDST(new Date('January 1, 2017'))
 isDST(new Date('July 1, 2017'))
 //=> true
 
-// invoked on February 5, 2017
 isDST()
 //=> false
 ```
