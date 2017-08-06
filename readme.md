@@ -19,12 +19,12 @@ $ npm install --save is-dst
 ```js
 const isDST = require('is-dst')
 
-// examples invoked on the east coast of USA
+// examples invoked in US/Eastern timezone
 
 isDST(new Date('January 1, 2017'))
 //=> false
 
-isDST(new Date('June 1, 2017'))
+isDST(new Date('July 1, 2017'))
 //=> true
 
 // invoked on February 5, 2017
@@ -46,9 +46,9 @@ The date to check for DST.
 
 ## Assumptions
 
-- Assumes that January 1st and June 1st will never both be DST or not DST in a given year. This is currently true for all time zones that observe DST.
-
 - Returns false for time zones that do not observe DST.
+
+- Assumes that January 1st and July 1st will never both be DST or not DST in a given year. This is currently true for all time zones that observe DST.
 
 ## License
 
