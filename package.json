@@ -4,5 +4,32 @@
   "description": "Is it Daylight Saving Time?",
   "main": "index.js",
   "author": "Brandon Smith",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "brandon93s/is-dst",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "dst",
+    "daylight savings time",
+    "daylight-savings-time",
+    "is dst",
+    "is daylight savings time",
+    "is-daylight-savings-time"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "eslint": "^4.4.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
