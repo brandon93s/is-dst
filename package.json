@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": "brandon93s/is-dst",
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava"
   },
   "keywords": [
     "dst",
