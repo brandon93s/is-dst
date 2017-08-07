@@ -1,4 +1,4 @@
-import test from 'AVA'
+import test from 'ava'
 import isDST from './index.js'
 import timezoneMock from 'timezone-mock'
 
